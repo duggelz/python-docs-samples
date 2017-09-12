@@ -20,7 +20,7 @@ No matter what, all samples must:
 1. Be either a web application or a runnable console application.
 1. Have a `requirements.txt` containing all of its third-party dependencies.
 1. Work in Python 2.7, 3.5, & 3.6. App Engine Standard is exempt as it
-   only supports 2.7. Our default version is currently Python 3.5.
+   only supports 2.7. Our default version is currently Python 3.6.
 1. Have tests.
 1. Declare all dependencies in a `requirements.txt`. All requirements must
   be pinned.

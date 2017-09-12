@@ -9,7 +9,7 @@ RUN virtualenv /env
 
 # Setting these environment variables are the same as running
 # source /env/bin/activate.
-ENV VIRTUAL_ENV -p python3.5 /env
+ENV VIRTUAL_ENV -p python3.6 /env
 ENV PATH /env/bin:$PATH
 
 ADD . /bookstore/
